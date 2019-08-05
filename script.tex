@@ -1,0 +1,18 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx,psfrag}
+\usepackage{mathpazo} %opcional
+\begin{document}
+\pagestyle{empty}
+\psfragscanon
+
+%codigo subjetivo, depende do desenho.
+\psfrag{x}{$x$}
+\psfrag{x0}{$x_{0}$}
+\psfrag{y0}{$y_{0}$}
+\psfrag{y}{$y$}
+\psfrag{a}{$\frac{dy}{dx}\,x+k, x_{0}$}
+\noindent\includegraphics*[scale=1]{figura.eps}
+%--
+
+\psfragscanoff
+\end{document}
